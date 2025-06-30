@@ -59,31 +59,16 @@ City of Chicago Open Data Portal
 
 Local JSON/CSV files (e.g., trip_data.json, Salaries.csv)
 
-How to Use
-Dependencies: Install requirements via pip install -r requirements.txt (see below for template).
-
 Data: Place datasets in a /data directory (or update file paths in scripts).
 
 Execution: Run files individually (e.g., python salary_regression_analysis.py).
 
-requirements.txt Template
-text
-pandas>=1.4.0
-numpy>=1.22.0
-requests>=2.28.0
-statsmodels>=0.13.0
-seaborn>=0.12.0
-matplotlib>=3.6.0
-scipy>=1.9.0
 Key Insights
 Policy Implications: Regression models (Lab 4) reveal significant salary gaps for police vs. non-police roles.
 
 Data Quality: Lab 2 highlights challenges in cleaning real-world salary data (e.g., null values, mixed types).
 
 Visual Trends: Lab 5 identifies right-skewed salary distributions and departmental outliers.
-
-License
-This project is licensed under the MIT License. See LICENSE for details.
 
 This README is designed to:
 
